@@ -1,0 +1,56 @@
+name: Remote Social Work Job Digest
+
+on:
+  schedule:
+    # Runs Mon–Fri at 8:00 AM Eastern (13:00 UTC)
+    - cron: "0 13 * * 1-5"
+  workflow_dispatch:  # allows manual trigger from GitHub UI
+
+# Allow the workflow to write back to the repo (for sent_jobs.json)
+permissions:
+  contents: write
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run job digest
+        id: digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
+          USAJOBS_USER_AGENT: ${{ secrets.USAJOBS_USER_AGENT }}
+          ZIPRECRUITER_API_KEY: ${{ secrets.ZIPRECRUITER_API_KEY }}
+        run: |
+          cd src
+          python main.py
+
+      - name: Commit updated job history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sent_jobs.json
+          # Only commit if the file actually changed
+          if git diff --cached --quiet; then
+            echo "No new jobs sent — sent_jobs.json unchanged, skipping commit"
+          else
+            git commit -m "chore: update sent job history [skip ci]"
+            git push
+          fi
