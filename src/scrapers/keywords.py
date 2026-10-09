@@ -29,6 +29,7 @@ TITLE_MATCH = re.compile(
     r"medical.?social.?work(er)?|"
     r"recovery.?(coach|counselor|specialist)|"
     r"crisis.?(counselor|clinician|worker|specialist)|"
+    r"discharge.?coordinator|"
     r"therapist|"
     r"psychotherapist|"
     r"counselor"
