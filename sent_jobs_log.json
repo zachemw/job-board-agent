@@ -1,0 +1,44 @@
+{
+  "sends": [
+    {
+      "date": "2026-05-18",
+      "new_count": 3,
+      "returning_count": 0,
+      "jobs": [
+        {
+          "id": "remoteok:1131510",
+          "title": null,
+          "company": null,
+          "url": null,
+          "source": "RemoteOK",
+          "score": null,
+          "summary": null,
+          "licenses": [],
+          "is_new": true
+        },
+        {
+          "id": "remoteok:1131598",
+          "title": null,
+          "company": null,
+          "url": null,
+          "source": "RemoteOK",
+          "score": null,
+          "summary": null,
+          "licenses": [],
+          "is_new": true
+        },
+        {
+          "id": "remoteok:1131511",
+          "title": null,
+          "company": null,
+          "url": null,
+          "source": "RemoteOK",
+          "score": null,
+          "summary": null,
+          "licenses": [],
+          "is_new": true
+        }
+      ]
+    }
+  ]
+}

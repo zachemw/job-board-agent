@@ -45,7 +45,7 @@ from scrapers import (  # noqa: E402
 from dedup import deduplicate  # noqa: E402
 from claude_filter import filter_and_summarize  # noqa: E402
 from email_sender import send_digest, build_html  # noqa: E402
-from history import mark_seen, save_sent, count_new  # noqa: E402
+from history import mark_seen, save_sent, count_new, save_send_log  # noqa: E402
 
 SCRAPERS = {
     "Indeed": indeed.fetch,
@@ -146,6 +146,7 @@ def main():
             success = send_digest(filtered, total_scraped, source_counts)
             if success:
                 save_sent(filtered)
+                save_send_log(filtered)
                 logger.info("   ✅ Email sent and history updated!")
             else:
                 logger.error("   ❌ Email send failed")
