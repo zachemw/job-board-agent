@@ -187,7 +187,7 @@ def generate() -> None:
 <title>Remote Social Work Digest — Send History</title>
 <style>
   * {{ box-sizing: border-box; }}
-  body {{ margin: 0; padding: 0; background: #f6f8fa;
+  body {{ margin: 0; padding: 24px 0 0; background: #f6f8fa;
          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }}
   details > summary::-webkit-details-marker {{ display: none; }}
   details > summary::marker {{ display: none; }}
@@ -244,7 +244,7 @@ def generate() -> None:
   <div style="text-align:center;padding:20px 0;margin-top:8px;
               border-top:1px solid #e1e4e8">
     <p style="margin:0;color:#aaa;font-size:11px">
-      Generated {generated_at} · Curated by Claude AI
+      Generated {generated_at}
     </p>
   </div>
 
