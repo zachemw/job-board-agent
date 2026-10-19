@@ -277,6 +277,27 @@
           "is_new": true
         }
       ]
+    },
+    {
+      "date": "2026-10-19",
+      "new_count": 1,
+      "returning_count": 0,
+      "jobs": [
+        {
+          "id": "usajobs:CBTA-13093428-27-DIC",
+          "title": "Social Worker",
+          "company": "Veterans Health Administration",
+          "url": "https://www.usajobs.gov:443/job/889256000",
+          "source": "USA Jobs",
+          "score": 4,
+          "summary": "Fully remote VA Social Worker role providing virtual interprofessional care to underserved VISN facilities, $87K\u2013$113K with federal benefits.",
+          "licenses": [
+            "MSW",
+            "Active state license"
+          ],
+          "is_new": true
+        }
+      ]
     }
   ]
 }
