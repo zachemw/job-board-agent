@@ -298,6 +298,27 @@
           "is_new": true
         }
       ]
+    },
+    {
+      "date": "2026-10-21",
+      "new_count": 1,
+      "returning_count": 0,
+      "jobs": [
+        {
+          "id": "usajobs:CBTA-13090030-27-DIC",
+          "title": "Staff Psychologist",
+          "company": "Veterans Health Administration",
+          "url": "https://www.usajobs.gov:443/job/889257000",
+          "source": "USA Jobs",
+          "score": 4,
+          "summary": "Remote VA Staff Psychologist role ($106K\u2013$138K) with eligibility for up to $200K student loan reimbursement via EDRP. Direct clinical practice with veterans; psychology licensure required.",
+          "licenses": [
+            "Licensed Psychologist",
+            "State license required"
+          ],
+          "is_new": true
+        }
+      ]
     }
   ]
 }
