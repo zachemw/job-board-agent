@@ -319,6 +319,26 @@
           "is_new": true
         }
       ]
+    },
+    {
+      "date": "2026-10-29",
+      "new_count": 1,
+      "returning_count": 0,
+      "jobs": [
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/crisis-connections-recovery-specialist",
+          "title": "Recovery Specialist",
+          "company": "Crisis Connections",
+          "url": "https://weworkremotely.com/remote-jobs/crisis-connections-recovery-specialist",
+          "source": "We Work Remotely",
+          "score": 5,
+          "summary": "Fully remote WA Recovery Helpline Specialist providing telephone-based recovery/SUD support at $26.79/hr, M-F 8-4. Must reside in Washington state; union-represented position.",
+          "licenses": [
+            "WA residency required"
+          ],
+          "is_new": true
+        }
+      ]
     }
   ]
 }
