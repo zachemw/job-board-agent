@@ -339,6 +339,40 @@
           "is_new": true
         }
       ]
+    },
+    {
+      "date": "2026-11-05",
+      "new_count": 1,
+      "returning_count": 1,
+      "jobs": [
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/crisis-connections-recovery-specialist",
+          "title": "Recovery Specialist",
+          "company": "Crisis Connections",
+          "url": "https://weworkremotely.com/remote-jobs/crisis-connections-recovery-specialist",
+          "source": "We Work Remotely",
+          "score": 5,
+          "summary": "Fully remote WA Recovery Helpline Specialist at $26.79/hr, M\u2013F 8\u20134, providing telephone-based substance use recovery support; must reside in WA.",
+          "licenses": [
+            "WA residency required"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "usajobs:CBSZ-13109326-27-AV",
+          "title": "Social Worker",
+          "company": "Veterans Health Administration",
+          "url": "https://www.usajobs.gov:443/job/891743700",
+          "source": "USA Jobs",
+          "score": 4,
+          "summary": "Fully remote VA tele-mental health social worker position in Primary Care Mental Health Integration, $61K\u2013$97K, federal benefits.",
+          "licenses": [
+            "LCSW",
+            "MSW"
+          ],
+          "is_new": true
+        }
+      ]
     }
   ]
 }
