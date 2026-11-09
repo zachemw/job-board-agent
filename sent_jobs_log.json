@@ -373,6 +373,63 @@
           "is_new": true
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "new_count": 3,
+      "returning_count": 1,
+      "jobs": [
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/crisis-connections-recovery-specialist",
+          "title": "Recovery Specialist",
+          "company": "Crisis Connections",
+          "url": "https://weworkremotely.com/remote-jobs/crisis-connections-recovery-specialist",
+          "source": "We Work Remotely",
+          "score": 5,
+          "summary": "Fully remote WA Recovery Helpline Specialist at $26.79/hour, M-F 8-4, providing phone-based substance use recovery support; must reside in Washington state.",
+          "licenses": [
+            "WA residency required"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/unitedhealth-group-behavioral-intake-counselor",
+          "title": "Behavioral Intake Counselor",
+          "company": "UnitedHealth Group",
+          "url": "https://weworkremotely.com/remote-jobs/unitedhealth-group-behavioral-intake-counselor",
+          "source": "We Work Remotely",
+          "score": 4,
+          "summary": "Remote Behavioral Intake Counselor with Optum/UnitedHealth, conducting behavioral health intake assessments to connect members to care.",
+          "licenses": [
+            "Active state license"
+          ],
+          "is_new": true
+        },
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/two-chairs-mental-health-therapist-part-time-w-2",
+          "title": "Mental Health Therapist (Part-Time, W-2)",
+          "company": "Two Chairs",
+          "url": "https://weworkremotely.com/remote-jobs/two-chairs-mental-health-therapist-part-time-w-2",
+          "source": "We Work Remotely",
+          "score": 4,
+          "summary": "Part-time W-2 remote therapist role at Two Chairs, $58.50\u2013$85/hour clinical rate plus $23/hour admin, with AI-assisted documentation and wellness stipend.",
+          "licenses": [
+            "Active state license"
+          ],
+          "is_new": true
+        },
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/american-hospital-services-group-triage-consultant",
+          "title": "Triage Consultant",
+          "company": "American Hospital Services Group",
+          "url": "https://weworkremotely.com/remote-jobs/american-hospital-services-group-triage-consultant",
+          "source": "We Work Remotely",
+          "score": 3,
+          "summary": "100% remote Triage Consultant for Military OneSource, assessing participant needs and facilitating warm hand-offs to service providers \u2014 first point of contact for military families.",
+          "licenses": [],
+          "is_new": true
+        }
+      ]
     }
   ]
 }
