@@ -430,6 +430,27 @@
           "is_new": true
         }
       ]
+    },
+    {
+      "date": "2026-11-20",
+      "new_count": 1,
+      "returning_count": 0,
+      "jobs": [
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/betterhelp-licensed-clinical-mental-health-counselor-remote-1",
+          "title": "Licensed Clinical Mental Health Counselor- Remote",
+          "company": "BetterHelp",
+          "url": "https://weworkremotely.com/remote-jobs/betterhelp-licensed-clinical-mental-health-counselor-remote-1",
+          "source": "We Work Remotely",
+          "score": 4,
+          "summary": "Remote therapy via BetterHelp at $43\u2013$59/hr for live sessions with a $350 first-client bonus and $650 health stipend for 30+ hrs/week. Fully remote private-practice model with no admin overhead.",
+          "licenses": [
+            "Licensed Clinical Mental Health Counselor",
+            "Active state license"
+          ],
+          "is_new": true
+        }
+      ]
     }
   ]
 }
