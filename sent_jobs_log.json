@@ -451,6 +451,54 @@
           "is_new": true
         }
       ]
+    },
+    {
+      "date": "2026-11-24",
+      "new_count": 3,
+      "returning_count": 0,
+      "jobs": [
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/unitedhealth-group-surest-behavioral-health-clinical-advocate-remote-in-pst-time-zone",
+          "title": "Surest Behavioral Health Clinical Advocate - Remote in PST time zone",
+          "company": "UnitedHealth Group",
+          "url": "https://weworkremotely.com/remote-jobs/unitedhealth-group-surest-behavioral-health-clinical-advocate-remote-in-pst-time-zone",
+          "source": "We Work Remotely",
+          "score": 4,
+          "summary": "Remote Behavioral Health Clinical Advocate at UnitedHealthcare/Surest helping members navigate behavioral health benefits; PST time zone required.",
+          "licenses": [
+            "Behavioral health clinical license (likely LCSW, LPC, or RN)"
+          ],
+          "is_new": true
+        },
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/betterhelp-licensed-independent-social-worker-remote",
+          "title": "Licensed Independent Social Worker- Remote",
+          "company": "BetterHelp",
+          "url": "https://weworkremotely.com/remote-jobs/betterhelp-licensed-independent-social-worker-remote",
+          "source": "We Work Remotely",
+          "score": 4,
+          "summary": "Remote therapy role with BetterHelp at $43\u2013$59/hr for live sessions plus $350 first-client bonus and $650 health stipend at 30+ hrs/week; no admin overhead.",
+          "licenses": [
+            "Licensed Independent Social Worker",
+            "LISW"
+          ],
+          "is_new": true
+        },
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/betterhelp-licensed-independent-mental-health-practitioner-remote",
+          "title": "Licensed Independent Mental Health Practitioner - Remote",
+          "company": "BetterHelp",
+          "url": "https://weworkremotely.com/remote-jobs/betterhelp-licensed-independent-mental-health-practitioner-remote",
+          "source": "We Work Remotely",
+          "score": 4,
+          "summary": "Remote independent mental health practitioner role with BetterHelp (Nebraska-based); competitive hourly pay with up to 33% more per insurance session, $650 health stipend, and weekly payments.",
+          "licenses": [
+            "Licensed Independent Mental Health Practitioner",
+            "LIMHP"
+          ],
+          "is_new": true
+        }
+      ]
     }
   ]
 }
