@@ -499,6 +499,39 @@
           "is_new": true
         }
       ]
+    },
+    {
+      "date": "2026-11-24",
+      "new_count": 1,
+      "returning_count": 1,
+      "jobs": [
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/unitedhealth-group-surest-behavioral-health-clinical-advocate-remote-in-pst-time-zone",
+          "title": "Surest Behavioral Health Clinical Advocate - Remote in PST time zone",
+          "company": "UnitedHealth Group",
+          "url": "https://weworkremotely.com/remote-jobs/unitedhealth-group-surest-behavioral-health-clinical-advocate-remote-in-pst-time-zone",
+          "source": "We Work Remotely",
+          "score": 4,
+          "summary": "Remote Behavioral Health Clinical Advocate at UnitedHealthcare/Surest supporting members in navigating behavioral health benefits; PST time zone required.",
+          "licenses": [
+            "Active state license"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/betterhelp-licensed-marriage-and-family-therapist-remote-1",
+          "title": "Licensed Marriage and Family Therapist - Remote",
+          "company": "BetterHelp",
+          "url": "https://weworkremotely.com/remote-jobs/betterhelp-licensed-marriage-and-family-therapist-remote-1",
+          "source": "We Work Remotely",
+          "score": 4,
+          "summary": "Remote therapy role via BetterHelp with up to 33% more per insurance session, $350 first-client bonus, $650 health stipend at 30hrs/week, and weekly pay with no admin overhead.",
+          "licenses": [
+            "LMFT"
+          ],
+          "is_new": true
+        }
+      ]
     }
   ]
 }
