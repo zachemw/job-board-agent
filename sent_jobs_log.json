@@ -532,6 +532,37 @@
           "is_new": true
         }
       ]
+    },
+    {
+      "date": "2026-11-25",
+      "new_count": 1,
+      "returning_count": 1,
+      "jobs": [
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/unitedhealth-group-surest-behavioral-health-clinical-advocate-remote-in-pst-time-zone",
+          "title": "Surest Behavioral Health Clinical Advocate - Remote in PST time zone",
+          "company": "UnitedHealth Group",
+          "url": "https://weworkremotely.com/remote-jobs/unitedhealth-group-surest-behavioral-health-clinical-advocate-remote-in-pst-time-zone",
+          "source": "We Work Remotely",
+          "score": 4,
+          "summary": "Remote (PST) Behavioral Health Clinical Advocate at UnitedHealthcare/Surest, supporting members in navigating behavioral health benefits. Clinical licensure typically required for advocate roles at UHG.",
+          "licenses": [
+            "Active state clinical license"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/amfm-healthcare-utilization-review-case-manager",
+          "title": "Utilization Review Case Manager",
+          "company": "AMFM Healthcare",
+          "url": "https://weworkremotely.com/remote-jobs/amfm-healthcare-utilization-review-case-manager",
+          "source": "We Work Remotely",
+          "score": 4,
+          "summary": "Remote PST, M-F 8:30-5 Utilization Review Case Manager at AMFM Healthcare (behavioral health), managing insurance utilization across client treatment episodes from admission to discharge.",
+          "licenses": [],
+          "is_new": true
+        }
+      ]
     }
   ]
 }
