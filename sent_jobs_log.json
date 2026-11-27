@@ -563,6 +563,40 @@
           "is_new": true
         }
       ]
+    },
+    {
+      "date": "2026-11-27",
+      "new_count": 1,
+      "returning_count": 1,
+      "jobs": [
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/unitedhealth-group-surest-behavioral-health-clinical-advocate-remote-in-pst-time-zone",
+          "title": "Surest Behavioral Health Clinical Advocate - Remote in PST time zone",
+          "company": "UnitedHealth Group",
+          "url": "https://weworkremotely.com/remote-jobs/unitedhealth-group-surest-behavioral-health-clinical-advocate-remote-in-pst-time-zone",
+          "source": "We Work Remotely",
+          "score": 4,
+          "summary": "Remote (PST) Behavioral Health Clinical Advocate at UnitedHealth/Surest supporting members in navigating behavioral health benefits \u2014 clinical advocacy role likely requiring independent behavioral health licensure.",
+          "licenses": [
+            "Active behavioral health license (LCSW/LPC/LMFT or equivalent)"
+          ],
+          "is_new": false
+        },
+        {
+          "id": "wwr:https://weworkremotely.com/remote-jobs/betterhelp-licensed-professional-counselor-remote",
+          "title": "Licensed Professional Counselor - Remote",
+          "company": "BetterHelp",
+          "url": "https://weworkremotely.com/remote-jobs/betterhelp-licensed-professional-counselor-remote",
+          "source": "We Work Remotely",
+          "score": 4,
+          "summary": "Fully remote telehealth therapy via BetterHelp with $350 first-client bonus, up to 33% higher pay on insurance clients, weekly pay, and $650 health stipend at 30 hrs/week \u2014 platform handles admin.",
+          "licenses": [
+            "LPC",
+            "Active state license to practice counseling/therapy independently"
+          ],
+          "is_new": true
+        }
+      ]
     }
   ]
 }
